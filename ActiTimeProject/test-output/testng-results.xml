@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-11T18:04:35 IST" name="SuiteforActiTimeApplication" finished-at="2022-03-11T18:04:46 IST" duration-ms="10992">
+    <groups>
+    </groups>
+    <test started-at="2022-03-11T18:04:35 IST" name="FireFox Test" finished-at="2022-03-11T18:04:42 IST" duration-ms="7231">
+      <class name="pomtest.TestNgClass">
+        <test-method is-config="true" signature="launchBrowserName(java.lang.String)[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:35 IST" name="launchBrowserName" finished-at="2022-03-11T18:04:40 IST" duration-ms="5438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserName -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:40 IST" name="launchBrowser" finished-at="2022-03-11T18:04:40 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logInToApplication()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:40 IST" name="logInToApplication" finished-at="2022-03-11T18:04:42 IST" duration-ms="1611" status="FAIL">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:218)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at utils.Utility.getdataFromExcel(Utility.java:40)
+at pomtest.TestNgClass.logInToApplication(TestNgClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInToApplication -->
+        <test-method signature="verifyReportButton()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="verifyReportButton" finished-at="2022-03-11T18:04:42 IST" duration-ms="0" status="SKIP">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:218)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at utils.Utility.getdataFromExcel(Utility.java:40)
+at pomtest.TestNgClass.logInToApplication(TestNgClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportButton -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="logOut" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002082412" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="logInToApplication()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="logInToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002082417" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInToApplication -->
+        <test-method signature="verifyUserTab()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="verifyUserTab" finished-at="2022-03-11T18:04:42 IST" duration-ms="0" status="SKIP">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:218)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at utils.Utility.getdataFromExcel(Utility.java:40)
+at pomtest.TestNgClass.logInToApplication(TestNgClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTab -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="logOut" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002082443" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002082452" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:pomtest.TestNgClass@bd4dc25]" started-at="2022-03-11T18:04:42 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002082456" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- pomtest.TestNgClass -->
+    </test> <!-- FireFox Test -->
+    <test started-at="2022-03-11T18:04:42 IST" name="EdgeTest" finished-at="2022-03-11T18:04:46 IST" duration-ms="3692">
+      <class name="pomtest.TestNgClass">
+        <test-method is-config="true" signature="launchBrowserName(java.lang.String)[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:42 IST" name="launchBrowserName" finished-at="2022-03-11T18:04:45 IST" duration-ms="2696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserName -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:45 IST" name="launchBrowser" finished-at="2022-03-11T18:04:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logInToApplication()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:45 IST" name="logInToApplication" finished-at="2022-03-11T18:04:46 IST" duration-ms="917" status="FAIL">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:218)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at utils.Utility.getdataFromExcel(Utility.java:40)
+at pomtest.TestNgClass.logInToApplication(TestNgClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInToApplication -->
+        <test-method signature="verifyReportButton()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="verifyReportButton" finished-at="2022-03-11T18:04:46 IST" duration-ms="0" status="SKIP">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:218)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at utils.Utility.getdataFromExcel(Utility.java:40)
+at pomtest.TestNgClass.logInToApplication(TestNgClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReportButton -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="logOut" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002086182" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="logInToApplication()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="logInToApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002086195" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInToApplication -->
+        <test-method signature="verifyUserTab()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="verifyUserTab" finished-at="2022-03-11T18:04:46 IST" duration-ms="0" status="SKIP">
+          <exception class="org.apache.poi.EmptyFileException">
+            <message>
+              <![CDATA[The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:218)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at utils.Utility.getdataFromExcel(Utility.java:40)
+at pomtest.TestNgClass.logInToApplication(TestNgClass.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.EmptyFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTab -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="logOut" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002086203" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002086211" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:pomtest.TestNgClass@6e0f5f7f]" started-at="2022-03-11T18:04:46 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1647002086217" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- pomtest.TestNgClass -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- SuiteforActiTimeApplication -->
+</testng-results>

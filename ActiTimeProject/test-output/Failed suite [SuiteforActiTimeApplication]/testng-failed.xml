@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [Failed suite [SuiteforActiTimeApplication]]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="classes" name="ChromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="pomtest.TestNgClass">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyReportButton"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowserName"/>
+          <include name="closedBrowser"/>
+          <include name="logOut"/>
+          <include name="logInToApplication"/>
+          <include name="verifyUserTab"/>
+        </methods>
+      </class> <!-- pomtest.TestNgClass -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SuiteforActiTimeApplication]] -->

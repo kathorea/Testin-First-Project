@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteforActiTimeApplication" thread-count="1" parallel="classes">
+
+<listeners>
+	<listener class-name="extendReport.ExtentTestNGIReporterListener" />
+</listeners>
+
+  <test  name="FireFox Test">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="pomtest.TestNgClass"/>
+    
+    </classes>
+  </test> <!-- Test -->
+
+<test  name="EdgeTest">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="pomtest.TestNgClass"/>
+     
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- SuiteActiTime -->
